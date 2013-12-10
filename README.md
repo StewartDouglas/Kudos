@@ -1,0 +1,9 @@
+Kudos
+=====
+
+Kudos is a web application that allows individuals to thank ('Kudos') their colleagues 
+for doing them favours in a work context. For example, an individual in Finance may need 
+data from a colleague in HR. The individual in HR has little incentive to provide this 
+information under the current system, since they are in different departments. Our new 
+systems provides a lightweight and easy-to-use system to formalise giving Kudos across 
+an organisation, thus fostering collaboration.
