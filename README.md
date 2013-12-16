@@ -12,4 +12,4 @@ See the forked repo Kudoes_Backend from the backend implementation in Rails.
 
 This project won the Novemver 2013 Hackin' The City hackathon.
 
-![alt tag](https://github.com/StewartDouglas/Kudos/blob/master/screenshots/Screen%20Shot%202013-12-01%20at%202.34.03%20PM.png)
+![alt tag](https://github.com/StewartDouglas/Kudos/blob/master/screenshots/Screen%20Shot%202013-12-01%20at%202.34.03%20PM.png?raw=true)
