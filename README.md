@@ -8,7 +8,7 @@ information under the current system, since they are in different departments. O
 systems provides a lightweight and easy-to-use system to formalise giving Kudos across 
 an organisation, thus fostering collaboration.
 
-See the forked repo Kudoes_Backend from the backend implementation in Rails. 
+See the forked repo Kudoes_Backend for the backend implementation in Rails. 
 
 This project won the Novemver 2013 Hackin' The City hackathon.
 
