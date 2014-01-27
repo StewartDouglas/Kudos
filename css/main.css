@@ -1,0 +1,113 @@
+.searchGroup form {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#helpFormTable {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.searchGroup input,#kudosSearchBox,#helpSearchBox {
+	width: 100%;
+}
+
+.modal,.modal.fade.in {
+	padding-top: 15%;
+}
+
+#kudosSearchBox button,#helpSearchBox button {
+	float: right;
+	height: 42px;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	box-shadow: 3px 2px #888888;
+}
+
+#selectedUser {
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	color: #FFFFFF;
+	background-color: #EB7575;
+	border-color: #cccccc;
+}
+
+#selectedUser:hover {
+	color: #FFFFFF;
+	background-color: #FA0000;
+	border-color: #cccccc;
+}
+
+.select2-choices {
+	min-height: 40p;
+	height: 40px;
+	max-height: 40px;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+
+.select2-container .select2-choice .select2-chosen {
+	padding-top: 5px;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+	margin-top: 10px !important;
+	padding-top: 8px !important;
+	padding-bottom: 5px !important;
+}
+
+.selectSearch,.select2-choice {
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	font-size: 20pt;
+	min-height: 40px;
+	background-color: transparent;
+}
+
+.footer {
+	text-align: center;
+}
+
+.skillsTable {
+	width: 45%;
+	float: left;
+}
+
+}
+.departmentsTable {
+	width: 45%;
+	padding-left: 55%;
+	float: right;
+}
+
+.tableSpace {
+	min-height: 120px;
+}
+
+.nav li a:focus {
+	text-decoration: none;
+	background-color: rgb(250, 0, 0);
+}
+
+.nav-justified li a {
+	color: #FFFFFF;
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+	/* border-bottom: 1px solid rgb(250, 0, 0); */
+	background-image: none;
+	background-color: rgb(235, 117, 117);
+}
+
+.nav-justified .active a,.nav-justified li a:hover,.nav-justified .active a:hover,.nav-justified .active a:focus,.nav-justified a,.nav-justified a:hover,.nav-justified a:focus
+	{
+	color: #FFFFFF;
+	background-color: #FA0000;
+}
+
+#s2id_autogen2 {
+	width: 50px;
+}

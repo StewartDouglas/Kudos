@@ -13,12 +13,19 @@
 <link href="css/select2.css" rel="stylesheet">
 <link href="css/select2-bootstrap.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 
 <title>Kudos</title>
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -27,12 +34,11 @@
 		<div class="masthead">
 			<a href="index.html#"> <img src="images/logo.png" alt="Kudos Logo" height="70px"></a>
 			<ul class="nav nav-justified">
-				<!-- Links to the different pages -->				
-				<li class="active"><a href="index.html#">Give Kudos</a></li>
+				<! -- Links to the different pages -->
+				<li><a href="index.html#">Give Kudos</a></li>
 				<li><a href="help.html#">Find Help</a></li>
 				<li><a href="leaderboard.html#">Leaderboard</a></li>
 				<li><a href="profile.html#">Profile</a></li>
-
 			</ul>
 		</div>
 
@@ -40,21 +46,15 @@
 			<img src="images/minilogo.png" height="100px">
 		</div>
 
-		<div class="input-group searchGroup" id="kudosSearchBox">
-			<form id="kudosForm" action="#" method="POST">
-				<button class="btn btn-default" type="submit"> Kudos + </button>
-				<input id="kudosSearchBoxInput" type="text"
-					class="dropdown-toggle form-control" placeholder="Type a name ..."
-					name="personName">
-				<div class="input-group">
-					<span id="selectedUser" class="input-group-addon"
-						style="display: none;"> </span> <input id="kudosSearchBoxSkills"
-						class="dropdown-toggle form-control" type="text" name="skills"
-						style="display: none;" placeholder="Enter skills ...">
-				</div>
+	
+		<div class="input-group searchGroup" id="helpSearchBox">
+			<form id="helpForm" action="#" method="POST">
+				<button class="btn btn-default" type="submit">Get Help</button>
+				<input id="helpSearchBoxInput" type="text"
+					class="dropdown-toggle form-control" placeholder="Type a skill ..."
+					name="skills">
 			</form>
 		</div>
-
 
 		<table id="helpFormTable" class="table table-stripped" style="display:none; width:70%">
 			<thead>
@@ -70,6 +70,7 @@
 		<p>© Kudos 2013</p>
 	</div>
 	</div>
+	<!-- /container -->
 
 	<!-- Modal dialog  -->
 	<div class="modal fade" id="warningModal" tabindex="-1" role="dialog"
@@ -86,6 +87,7 @@
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
+			<!-- /.modal-content -->
 		</div>
 	</div>
 
@@ -101,7 +103,7 @@
 					<img src="images/logo.png" alt="Kudos Logo" height="30px">
 				</div>
 				<div style="margin-left: 120px; margin-top: 15px">
-					<input style="border-radius: 4px; width: 300px; margin-bottom: 5px;" type="text" placeholder="Username"> 
+					<input style="border-radius: 4px; width: 300px; margin-bottom: 5px;" type="text" placeholder="sername"> 
 					<input style="border-radius: 4px; width: 300px" type="password"
 						placeholder="Password">
 				</div>
@@ -113,6 +115,10 @@
 		</div>
 	</div>
 
+
+
+	<!-- /.modal -->
+	<!-- Modal dialog -->
 
 </body>
 
