@@ -26,15 +26,16 @@ google.setOnLoadCallback(drawChart);
 		visualization_data.push(["Department","Kudos"]);
 
 		$.each( departments , function ( key , value ) {
+
 			visualization_data.push([key,value]);
 		});
-
 
 		data = new google.visualization.arrayToDataTable(visualization_data);
 		var options = {
 			title: 'Kudos Breakdown by Department',
 			'width': 700,
 			'height':450
+
 		};
 
 		var chart = new google.visualization.PieChart(document.getElementById('piechart'));

@@ -6,7 +6,6 @@ $("#kudosForm").submit(
 			}
 			// Don't let the submit form behave as it normally does
 			event.preventDefault();
-			//var form = $(this);
 			var skills = $("#kudosSearchBoxSkills").select2("val").join(" ");			
 			var data = {
 				"skills" : skills,
@@ -35,6 +34,7 @@ $("#helpForm").submit(
 			var data = {
 				"skill" : skills
 			};
+
 			var url = "http://localhost:2999/skill/" ;
 			// Load data from the server
 			var postAction = $.post(url, data);
@@ -43,6 +43,7 @@ $("#helpForm").submit(
 				$("#helpFormTable > tbody").html("");
 				$("#helpSearchBoxInput").select2('val', 'All');
 				$.each ( data , function ( key , object) {
+
 					$("#helpFormTable").append (
 							"<tr>" +
 								"<td>" + object["name"] + "</td>" +
